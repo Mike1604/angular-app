@@ -1,0 +1,33 @@
+/* AppComponent's private CSS styles */
+h1 {
+    margin-bottom: 0;
+  }
+  nav a {
+    padding: 1rem;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    font-family: Bebas Neue; 
+    font-weight: 0; 
+    font-size: 14px; 
+    color: #fff; 
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%); 
+    padding: 10px 50px; 
+    border: none; 
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px; 
+    border-radius: 50px; 
+    transition : 1000ms; 
+    transform: translateY(0); 
+  }
+  
+  nav a:hover {
+    transition : 1000ms; 
+    transform : translateY(-6px); 
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%); 
+    color: #ffffff; 
+    border: none; 
+  }
+  nav a:active {
+    background-color: black;
+  }
